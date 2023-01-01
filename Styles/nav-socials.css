@@ -1,0 +1,32 @@
+.nav_socials {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--secunadry-background-color);
+    align-items: center;
+    height: 60px;
+}
+
+.nav_socials .title {
+    color: var(--accent-color);
+}
+
+.nav_socials .links .fa {
+    color: var(--accent-color);
+    font-size: 17px !important;
+    border: 1px solid var(--accent-color);
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.nav_socials .links .fa:hover {
+    animation: swing .5s;
+    background: var(--text-color);
+}

@@ -1,0 +1,37 @@
+.nav_section .navbar-brand {
+
+    font-size: 30px;
+    color: var(--text-color) !important;
+}
+
+.nav_section .navbar-brand span {
+    color: var(--accent-color);
+}
+
+.nav_section .navbar-nav li {
+    margin: 0px 8px;
+}
+
+.nav_section .navbar-nav li a {
+    color: var(--text-color) !important;
+    font-size: 15px;
+}
+
+.nav_section .navbar-nav .nav-link::before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    background-color: var(--text-color);
+    position: absolute;
+    bottom: 17px;
+    transition: .5s;
+}
+
+.nav_section .navbar-nav .nav-link:hover::before {
+    content: '';
+    height: 2px;
+    width: 33px;
+    background: var(--text-color);
+    position: absolute;
+    bottom: 17px;
+}

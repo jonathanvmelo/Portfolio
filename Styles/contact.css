@@ -1,0 +1,60 @@
+.contact_section {
+   
+    padding: 150px 0;
+
+}
+
+.contact_section .heading {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.contact_section hr {
+    border: .5px solid var(--accent-color);
+    width: 6rem;
+    margin: 12px 0;
+}
+
+.contact_section .txt {
+    color: var(--secundary-color);
+    font-size: 13px;
+}
+
+.contact_section form .form-control {
+    background: var(--bg-color-form-inputs);
+    border: 2px solid var(--bg-color-form-inputs);
+    color: var(--text-color);
+}
+
+.contact_section form button {
+    background: var(--accent-color);
+    border: 2px solid var(--accent-color);
+    color: var(--text-color);
+    width: 100px;
+    font-size: 15px;
+}
+
+.contact_section form button:hover {
+    animation: swing .5s;
+}
+
+.contact_section ul li {
+    columns: var(--text-color);
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.contact_section ul li .fa {
+    color: var(--accent-color);
+}
+
+
+
+/* ----------------------------- */
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .contact_section .heading {
+        font-size: 42px;
+
+    }
+}

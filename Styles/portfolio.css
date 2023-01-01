@@ -1,0 +1,130 @@
+.portfolio_section {
+    background: var(--secunadry-background-color);
+    padding: 170px 0;
+}
+
+.portfolio_section .container {
+    width: 100%;
+}
+
+.portfolio_section .under {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.portfolio_section .nav-tabs {
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio_section .card:hover {
+    animation: pulse .5s;
+}
+
+
+
+.portfolio_section .nav-tabs .nav-link.active {
+    border: none;
+    color: var(--text-color);
+    border-bottom: 2px solid var(--accent-color) !important;
+    background: transparent;
+}
+
+.portfolio_section .nav-tabs .nav-link.active:hover {
+    border-bottom: 2px solid var(--accent-color) !important;
+}
+
+.portfolio_section .nav-tabs .nav-item.show .nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    background: transparent !important;
+}
+
+.portfolio_section .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.portfolio_section .tab-content .card img {
+    border: 2px solid var(--text-color);
+}
+
+.portfolio_section .tab-content .card img:hover {
+    /* animation: pulse .5s; */
+}
+
+.portfolio_section .card-columns {
+    /* max-height: 150px; */
+    /* column-count: 5; */
+}
+
+
+.portfolio_section .card-body {
+    background: var(--card-bg-color);
+}
+
+.portfolio_section .card-body .title {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color) !important;
+}
+
+.portfolio_section .card-body .date {
+    font-size: 11px;
+    color: var(--text-color);
+    word-spacing: px;
+}
+
+.portfolio_section .card-body .date span {
+    color: var(--accent-color);
+}
+
+.portfolio_section .card-body .txt {
+    font-size: 14px;
+    color: var(--secundary-color) !important;
+}
+
+.portfolio_section .card-body .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio_section .card-body a {
+    display: flex;
+    justify-content: space-between;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.portfolio_section .card-body .links span button:hover {
+    color: var(--text-color);
+    background: var(--accent-color);
+    border: 1px solid var(--text-color);
+    border-radius: 2px;
+}
+
+.portfolio_section .card-body .links span button a:hover {
+    color: var(--text-color);
+}
+
+.portfolio_section .card-body .links span a:hover {
+    color: var(--secundary-color);
+    text-decoration: none;
+}
+
+.portfolio_section .card-body .links span button {
+    background: var(--text-color);
+    border: .5px solid var(--secundary-color);
+    border-radius: 2px;
+    font-weight: 400;
+}
+
+@media(max-width:767px) {
+
+    .portfolio_section .card-columns {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}

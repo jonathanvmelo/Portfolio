@@ -1,0 +1,190 @@
+/* TITLE SECTION */
+
+.title-section .row {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+
+.title-section .row h1,
+h2,
+h3,
+p {
+    color: var(--text-color);
+}
+
+.title-section .row {
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.title-section .row h3::after {
+    content: '';
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    width: 90px;
+    height: 2px;
+    background: var(--accent-color);
+    margin-left: 6px;
+}
+
+.title-section .row h1 {
+    font-size: 65px;
+    font-weight: 800;
+    color: var(--text-color);
+
+}
+
+.title-section .row .span {
+    animation: bounceInDown;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+.title-section .row h2 {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 8px 0px;
+
+}
+
+.title-section .row p {
+    font-size: 13px;
+    margin-top: .13px;
+    line-height: 21px;
+    color: var(--secundary-color);
+    line-height: 1.7rem;
+}
+
+.title-section .row button {
+    border-radius: 10px;
+    font-size: 19px;
+    color: var(--text-color);
+    background-color: var(--accent-color);
+    border: 3px solid var(--accent-color);
+    margin-top: 10 px;
+    animation: tada;
+    animation-duration: 1s;
+    animation-delay: 8s;
+}
+
+.title-section .row button:hover {
+    background: var(--text-color);
+    color: var(--background-color);
+    border-color: var(--card-bg-color);
+}
+
+.title-section .row img {
+    width: 80%;
+    border-radius: 30px;
+    border-right: 3px solid var(--accent-color);
+    border-bottom: 3px solid var(--accent-color);
+
+
+}
+
+
+
+
+
+/* Responsive Title */
+
+@media (max-width:1200px) and (min-width:993px) {
+    .title-section .row h1 {
+        font-size: 58px;
+    }
+}
+
+@media (max-width:993px) and (min-width:768px) {
+    .title-section .row h1 {
+        font-size: 42px;
+    }
+
+    .title-section .row h2 {
+        font-size: 15px;
+    }
+
+    .title-section .row p {
+        font-size: 11px;
+        line-height: 1.3rem;
+    }
+
+    .title-section .row h3 {
+
+        font-size: 15px;
+    }
+
+    .title-section .row h3::after {
+        top: 10px;
+    }
+
+    .title-section .row button {
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .title-section {
+        margin-bottom: 50px;
+    }
+
+    .title-section .row {
+        margin-bottom: 50px;
+    }
+
+    .title-section .row img {
+        width: 50%;
+    }
+
+    .title-section .row h1 {
+        font-size: 46px;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+
+    .title-section .row h2 {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .title-section .row p {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .title-section .btn_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2.5rem;
+    }
+
+    .title-section .row h3 {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .title-section .row h3::after {
+        top: 9px;
+    }
+
+    .title-section .row h3 ::after {
+        width: 0px;
+    }
+
+    .title-section .btn_container button {
+        width: 130px;
+        height: 43px;
+        font-size: 15px;
+        text-align: center;
+    }
+}

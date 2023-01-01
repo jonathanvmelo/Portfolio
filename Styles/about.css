@@ -1,0 +1,108 @@
+.about_section {
+    background-color: var(--secunadry-background-color);
+    padding: 140px 0;
+ 
+}
+
+.about_section .about-question {
+    color: var(--text-color);
+    font-size: 50px;
+}
+
+.about_section .lets-talk {
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 14px;
+}
+
+.about_section .info-email {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--accent-color);
+    word-spacing: 6px;
+    margin-top: 35px;
+}
+
+.about_section .contact-info {
+    margin-top: 15px;
+}
+
+.about_section .contact-info h5 {
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 6px;
+}
+
+
+/* ---------------------- */
+
+
+.about_section #about-title {
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+
+    color: var(--text-color);
+}
+
+.about_section .about_me_right_section #txt {
+    font-size: 15px;
+    margin-top: 13px;
+    line-height: 25px;
+    color: var(--secundary-color);
+}
+
+.about_section .about_me_right_section hr {
+    border: .5px solid var(--accent-color);
+    width: 6rem;
+    margin: 0;
+}
+
+
+.about_section .about_me_right_section button {
+    border-radius: 7px;
+    font-size: 15px;
+    color: var(--text-color);
+    background-color: var(--accent-color);
+    border: 3px solid var(--accent-color);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+.about_section .about_me_right_section button:hover {
+    animation: swing;
+    animation-duration: .5s;
+}
+
+
+/* ---------------------------------------------------- */
+
+
+@media(max-width:993px) and (min-width:768px) {
+    .about_section .about_me_right_section #txt {
+        font-size: 12px;
+    }
+
+    .about_section #about-title {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .about_section {
+        margin-bottom: 50px;
+    }
+
+    .about_section .about-question {
+        font-size: 35px;
+    }
+
+    .about_section #about-title {
+        font-size: 15px;
+        margin-top: 2rem;
+    }
+
+
+}

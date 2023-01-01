@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lacquer&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;500;600;700;900&family=Rubik+Moonrocks&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+:root {
+    --background-color: #333647;
+    --secunadry-background-color: #282a39;
+    --text-color: #fff;
+    --accent-color: #f87652;
+    --secundary-color: #bbbbbb;
+    --bg-color-of-lists-in-skills-section: #81818180;
+    --card-bg-color: #232432;
+    --bg-color-form-inputs: #c4c4c44a
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--background-color) !important;
+}
+
+a {
+    cursor: pointer;
+}
