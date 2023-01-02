@@ -8,7 +8,7 @@
     font-size: 15px;
 
     color: var(--secundary-color);
-    opacity: .5;
+    opacity: .6;
     text-align: center;
  
     
@@ -28,5 +28,5 @@
     padding-left: 10px;
     color: var(--secundary-color);
     font-size: 11px;
-    opacity: .2;
+    opacity: .4;
 }
