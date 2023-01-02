@@ -1,7 +1,7 @@
 .about_section {
     background-color: var(--secunadry-background-color);
     padding: 140px 0;
- 
+
 }
 
 .about_section .about-question {
@@ -30,7 +30,7 @@
 
 .about_section .contact-info h5 {
     color: var(--text-color);
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
     word-spacing: 6px;
 }
@@ -51,6 +51,13 @@
     font-size: 15px;
     margin-top: 13px;
     line-height: 25px;
+    color: var(--secundary-color);
+}
+
+.about_section .about_me_right_section #option {
+    font-size: 12px;
+    margin-top: 13px;
+
     color: var(--secundary-color);
 }
 
@@ -82,7 +89,7 @@
 
 @media(max-width:993px) and (min-width:768px) {
     .about_section .about_me_right_section #txt {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .about_section #about-title {
@@ -92,16 +99,28 @@
 
 @media(max-width:768px) {
     .about_section {
-        margin-bottom: 50px;
+        
+        padding: 50px 25px;
     }
 
     .about_section .about-question {
-        font-size: 35px;
+        font-size: 30px;
+        margin-top: 30px;
     }
 
     .about_section #about-title {
         font-size: 15px;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
+    }
+
+
+    .about_section .lets-talk {
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .about_section .about_me_right_section button {
+        margin-top: 20px;
     }
 
 

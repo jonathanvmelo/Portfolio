@@ -1,4 +1,7 @@
-/* TITLE SECTION */
+
+.title-section {
+    padding: 0 20px;
+}
 
 .title-section .row {
     display: flex;
@@ -41,6 +44,7 @@ p {
     animation: bounceInDown;
     animation-duration: 2s;
     animation-delay: 3s;
+
 }
 
 .title-section .row h2 {
@@ -70,19 +74,53 @@ p {
     animation-delay: 8s;
 }
 
-.title-section .row button:hover {
+/* .title-section .row button :hover {
     background: var(--text-color);
     color: var(--background-color);
     border-color: var(--card-bg-color);
+} */
+
+.title-section .row button a {
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--accent-color);
 }
+
+/* .title-section .row button a:hover {
+    background: var(--text-color);
+    color: var(--background-color);
+    border-color: var(--card-bg-color);
+} */
+
 
 .title-section .row img {
     width: 80%;
     border-radius: 30px;
     border-right: 3px solid var(--accent-color);
     border-bottom: 3px solid var(--accent-color);
+}
 
+.title-section .row .btn_top a {
+    position: fixed;
+    top: 93%;
+    left: 96%;
+    color: var(--accent-color);
+    font-size: 25px !important;
+    border: 1px solid var(--accent-color);
+    padding: 3px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
 
+.title-section .row .btn_top a:hover {
+    animation: swing .5s;
+    background: var(--text-color);
 }
 
 
@@ -92,6 +130,9 @@ p {
 /* Responsive Title */
 
 @media (max-width:1200px) and (min-width:993px) {
+
+
+
     .title-section .row h1 {
         font-size: 58px;
     }
@@ -123,12 +164,23 @@ p {
     .title-section .row button {
         font-size: 25px;
     }
+
+    .title-section .row .btn_top a {
+        top: 93%;
+        left: 93%;
+        width: 35px;
+        height: 35px;
+        padding: 2px;
+    }
 }
 
 
 @media (max-width:768px) {
     .title-section {
         margin-bottom: 50px;
+
+        padding: 40px 30px;
+
     }
 
     .title-section .row {
@@ -141,40 +193,38 @@ p {
 
     .title-section .row h1 {
         font-size: 46px;
-        text-align: center;
-        margin-top: 2.5rem;
+
+        margin-top: 1rem;
     }
 
     .title-section .row h2 {
         font-size: 18px;
-        text-align: center;
+
         margin-top: 1.5rem;
     }
 
     .title-section .row p {
         font-size: 14px;
-        text-align: center;
+
         line-height: 1rem;
         margin-top: 1.5rem;
     }
 
     .title-section .btn_container {
         display: flex;
-        justify-content: center;
+
         align-items: center;
         margin-top: 2.5rem;
     }
 
     .title-section .row h3 {
         font-size: 15px;
-        text-align: center;
-        margin-bottom: 20px;
-        text-align: center;
-        justify-content: center;
+        margin-top: 95px;
+
     }
 
     .title-section .row h3::after {
-        top: 9px;
+        margin-top: 85px;
     }
 
     .title-section .row h3 ::after {
@@ -185,6 +235,19 @@ p {
         width: 130px;
         height: 43px;
         font-size: 15px;
-        text-align: center;
+    }
+
+    .title-section .row img {
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .title-section .row .btn_top a {
+        top: 93%;
+        left: 89%;
+        width: 35px;
+        height: 35px;
+        padding: 2px;
     }
 }

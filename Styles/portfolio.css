@@ -9,7 +9,6 @@
 
 .portfolio_section .under {
     width: 100%;
-    margin-left: 50px;
 }
 
 .portfolio_section .nav-tabs {
@@ -21,8 +20,6 @@
 .portfolio_section .card:hover {
     animation: pulse .5s;
 }
-
-
 
 .portfolio_section .nav-tabs .nav-link.active {
     border: none;
@@ -48,16 +45,6 @@
 .portfolio_section .tab-content .card img {
     border: 2px solid var(--text-color);
 }
-
-.portfolio_section .tab-content .card img:hover {
-    /* animation: pulse .5s; */
-}
-
-.portfolio_section .card-columns {
-    /* max-height: 150px; */
-    /* column-count: 5; */
-}
-
 
 .portfolio_section .card-body {
     background: var(--card-bg-color);
@@ -119,6 +106,8 @@
     font-weight: 400;
 }
 
+/* ----------------------------- */
+
 @media(max-width:767px) {
 
     .portfolio_section .card-columns {
@@ -127,4 +116,14 @@
         flex-wrap: wrap;
     }
 
+    .portfolio_section {
+        padding: 80px 25px;
+    }
 }
+
+@media(min-width:769px) {
+    .portfolio_section {
+        padding: 80px 45px;
+    }
+}
+

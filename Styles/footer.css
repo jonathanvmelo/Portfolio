@@ -1,12 +1,27 @@
 .footer-area {
     border-top: 2px solid var(--bg-color-form-inputs);
     padding: 40px 0;
-    background: var(--secunadry-background-color);
+    height: 9rem;
+}
+
+.footer-area .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-area .row div a {
+    font-size: 40px;
 }
 
 .footer-area .navbar-brand {
     font-size: 23px;
+}
 
+.footer-area .links {
+    display: flex;
+    justify-content: end;
 }
 
 .footer-area p {
@@ -28,7 +43,6 @@
     border-radius: 100%;
     margin-right: 5px;
     cursor: pointer;
-
 }
 
 .footer-area .column .fa:hover {
@@ -36,24 +50,27 @@
     background: var(--text-color);
 }
 
-/* .footer-area .row .column .heading {
-    font-weight: 400 !important;
-    font-size: 21px;
-    color: var(--text-color);
+
+/* -------------------------------- */
+
+@media (max-width: 768px) {
+    .footer-area {
+        padding: 0;
+    }
+
+    .footer-area .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-area .row div a {
+        padding-top: 10px;
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+    }
+
+
 }
-
-.footer-area .list-group .list-group-item {
-    margin: -3px 0;
-    color: var(--text-color);
-    transition: .5s !important;
-}
-
-.footer-area .list-group .list-group-item:hover i {
-    padding-right: 10px;
-}
-
-.footer-area .list-group .list-group-item i {
-    font-size: 10px;
-    color: var(--accent-color);
-
-} */

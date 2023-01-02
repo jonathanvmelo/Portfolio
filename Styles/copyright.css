@@ -1,0 +1,32 @@
+.footer_copyright .container-fluid {
+    background: var(--secunadry-background-color);
+    padding: 25px;
+    height: 5rem;
+}
+
+.footer_copyright .author h5 {
+    font-size: 15px;
+
+    color: var(--secundary-color);
+    opacity: .5;
+    text-align: center;
+ 
+    
+}
+
+.footer_copyright .copyright {
+  
+    margin: 0;
+    padding: 0;
+    height: rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_copyright .copyright h6 {
+    padding-left: 10px;
+    color: var(--secundary-color);
+    font-size: 11px;
+    opacity: .2;
+}

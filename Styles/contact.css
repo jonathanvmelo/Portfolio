@@ -1,5 +1,5 @@
 .contact_section {
-   
+    background: var(--secunadry-background-color);
     padding: 150px 0;
 
 }
@@ -49,12 +49,28 @@
 }
 
 
-
 /* ----------------------------- */
 
 @media (max-width: 991px) and (min-width: 768px) {
+    .contact_section {
+        padding: 80px 30px;
+    }
+
     .contact_section .heading {
         font-size: 42px;
+    }
+}
 
+@media (max-width: 768px) {
+    .contact_section {
+        padding: 40px 40px;
+    }
+
+    .contact_section .heading {
+        font-size: 38px;
+    }
+
+    .contact_section .list-unstyle {
+        padding: 0;
     }
 }

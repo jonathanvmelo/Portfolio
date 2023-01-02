@@ -1,6 +1,6 @@
  .skills_section {
      padding: 100px 0px;
-  
+
  }
 
  .skills_section_left_section {
@@ -75,8 +75,18 @@
      color: transparent;
  }
 
+
+ /* ----------------------------- */
+ 
+ @media(min-width:769px) {
+     .skills_section {
+         padding: 80px 45px;
+     }
+ }
+
  @media(max-width:768px) {
      .skills_section {
-         margin-bottom: 120px;
+         margin: 0 20px;
+         padding: 80px 25px;
      }
  }
