@@ -99,25 +99,26 @@ p {
     border-bottom: 3px solid var(--accent-color);
 }
 
-.title-section .row .btn_top a {
+.title-section .row .btn_top .fa {
+    color: var(--accent-color);
+    font-size: 17px !important;
+    border: 1px solid var(--accent-color);
+    padding: 10px;
+    height: 40px;
+    width: 40px;
     position: fixed;
     top: 93%;
     left: 96%;
-    color: var(--accent-color);
-    font-size: 25px !important;
-    border: 1px solid var(--accent-color);
-    padding: 3px;
-    height: 40px;
-    width: 40px;
     display: inline-block;
     text-align: center;
     justify-content: center;
     border-radius: 100%;
+    margin-right: 8px;
     cursor: pointer;
     z-index: 1;
 }
 
-.title-section .row .btn_top a:hover {
+.title-section .row .btn_top .fa:hover {
     animation: swing .5s;
     background: var(--text-color);
 }
