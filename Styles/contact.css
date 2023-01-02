@@ -32,6 +32,7 @@
     color: var(--text-color);
     width: 100px;
     font-size: 15px;
+    margin-bottom: 25px;
 }
 
 .contact_section form button:hover {
@@ -41,13 +42,19 @@
 .contact_section ul li {
     columns: var(--text-color);
     font-size: 15px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    word-spacing: 3px;
 }
 
 .contact_section ul li .fa {
     color: var(--accent-color);
+    cursor: pointer;
 }
 
+.contact_section ul li .fa:hover {
+    color: var(--text-color);
+    cursor: pointer;
+}
 
 /* ----------------------------- */
 
@@ -58,6 +65,16 @@
 
     .contact_section .heading {
         font-size: 42px;
+    }
+
+    .contact_section .list-unstyle div {
+        height: 400px;
+    }
+
+    .contact_section ul li {
+        display: flex;
+        align-items: center;
+        height: 100%;
     }
 }
 

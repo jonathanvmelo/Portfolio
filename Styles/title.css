@@ -1,4 +1,3 @@
-
 .title-section {
     padding: 0 20px;
 }
@@ -6,7 +5,7 @@
 .title-section .row {
     display: flex;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 .title-section .row h1,
@@ -245,7 +244,7 @@ p {
 
     .title-section .row .btn_top a {
         top: 93%;
-        left: 89%;
+        left: 91%;
         width: 35px;
         height: 35px;
         padding: 2px;

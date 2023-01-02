@@ -31,3 +31,8 @@ a {
 span {
     color: var(--accent-color) !important;
 }
+
+ul,
+li {
+    list-style: none;
+}

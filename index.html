@@ -116,7 +116,7 @@
                         Movido por desafios. <br>
                         Especialista em soluções para você e seu negócio.</p>
                     <div class="btn_container">
-                        <button class="btn btn-light"><a href="#contact">Contact</a></button>
+                        <button class="btn btn-light"><a href="#contact">Contato</a></button>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
@@ -124,7 +124,7 @@
                     <img src="./Images/Eu-3.jpg" alt="">
                     <div class="btn_top">
 
-                        <i class=""><a href="#">
+                        <i class="fa fa-up"><a href="#">
                                 &#129045</a></i>
                     </div>
 
@@ -142,11 +142,18 @@
                     <h2 class="about-question">Alguma duvida <span>?</span> <br></h2>
                     <div>
                         <h2 class="lets-talk">Vamos conversar<span>.</span></h2>
-                        <h4 class="info-email">jonathanvmelo@hotmail.com</h4>
+
+                        <a href="mailto:jonathanvmelo@hotmail.com?subject=Assunto do email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Olá, estou entrando em contato "
+                            target="_blank"> <i class="info-email fa fa-envelope-o "> 
+                                Email</i></a>
                         <div class="contact-info">
-                            <h5>Whatsapp: +55 47 996254568</h5>
+                            <a href="https://web.whatsapp.com/send?phone=5547996254568" target="_blank"> <i
+                                    class="fa fa-whatsapp ">&nbsp
+                                    Whatsapp</i></a>
                         </div>
                     </div>
+                    <a href="#contact"><button class="btn btn-light btn-sm animate_animated">Contato</button></a>
+                    <h5 id="option">Ou se preferir, acesse o formulário e deixe sua mensagem <span>.</span></h5>
                 </div>
                 <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 about_me_right_section">
                     <h2 id="about-title">Sobre Mim</h2>
@@ -160,8 +167,7 @@
                         negócio <br>
                     </p>
 
-                    <button class="btn btn-light btn-sm animate_animated">Contacte me</button>
-                    <h5 id="option">Ou se preferir, acesse o formulário e deixe sua mensagem <span>.</span></h5>
+
                 </div>
             </div>
         </div>
@@ -495,7 +501,7 @@
                             <h3 class="title">Iniciante em Programação T3 - ONE</h3>
                             <p class="date">Iniciado em &nbsp<span>05/22 &nbsp</span><br>Finalizado em: <span>&nbspEm
                                     Andamento</span></p>
-                            <p class="txt">Lógica de programação</p>
+                            <p class="txt">Lógica de programação e algoritmos</p>
 
                         </div>
                     </div>
@@ -546,36 +552,42 @@
                         <h3 class="heading">Contacte Me</h3>
                         <hr>
                         <p class="txt">Preencha o formulário </p>
-                        <form>
+                        <form action="https://formsubmit.co/jonathanvmelo@hotmail.com" method="POST">
                             <div class="form-group">
-                                <input class="form-control" placeholder="Digite seu nome" type="text">
+                                <input class="form-control" placeholder="Digite seu nome" required type="text">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" placeholder="Digite seu email " type="email">
+                                <input class="form-control" placeholder="Digite seu email" required type="email">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" placeholder="Motivo do contato" type="text">
+                                <textarea name="message" class="form-control" rows="6"
+                                    placeholder="Escreva sua mensagem..."></textarea>
                             </div>
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://jonathanvmelo.github.io/Portfolio/#">
                             <div class="form-group">
-                                <textarea class="form-control" placeholder="Escreva sua mensagem..."></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button class="btn btn-light animate_animated">Enviar</button>
+                                <button class="btn btn-light animate_animated" type="submit"
+                                    value="Enviar">Enviar</button>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div>
-                        <ul class="list-unstyle">
-                            <li>
-                                <i class="fa fa-envelope-o"> &nbsp jonathanvmelo@hotmail.com</i>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone">&nbsp + 55 47 99625-4568</i>
-                            </li>
-                        </ul>
-                    </div>
+
+                    <ul class="list-unstyle">
+                        <li>
+                            <a href="mailto:jonathanvmelo@hotmail.com?subject=Assunto do email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Olá, estou entrando em contato "
+                            target="_blank"> <i class="info-email fa fa-envelope-o "> 
+                                jonathanvmelo@hotmail.com</i></a>
+                        </li>
+                        <li>
+                            <a href="https://web.whatsapp.com/send?phone=5547996254568" target="_blank"> <i
+                                class="fa fa-whatsapp ">&nbsp
+                                Whatsapp</i></a>
+
+                        </li>
+                    </ul>
+
 
                 </div>
             </div>
