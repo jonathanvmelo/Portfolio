@@ -555,22 +555,37 @@
                         <hr>
                         <p class="txt">Preencha o formulário </p>
                         <form action="https://formsubmit.co/jonathanvmelo@hotmail.com" method="POST">
+
+
                             <div class="form-group">
-                                <input class="form-control" placeholder="Digite seu nome" required type="text">
+                                <input required type="text">
+                                <label>Nome</label>
+                                <span class="error"></span>
                             </div>
+
                             <div class="form-group">
-                                <input class="form-control" placeholder="Digite seu email" required type="email">
+                                <input required type="email">
+                                <label>Email</label>
+                                <span class="error"></span>
                             </div>
+
                             <div class="form-group">
-                                <textarea name="message" class="form-control" rows="6"
-                                    placeholder="Escreva sua mensagem..."></textarea>
+                                <input required type="text" id="message-area">
+                                <label>Menssagem</label>
+                                <span class="error"></span>
                             </div>
+
+
                             <input type="hidden" name="_captcha" value="false">
                             <input type="hidden" name="_next" value="https://jonathanvmelo.github.io/Portfolio/#">
+
+
                             <div class="form-group">
                                 <button class="btn btn-light animate_animated" type="submit"
                                     value="Enviar">Enviar</button>
                             </div>
+
+
                         </form>
                     </div>
                 </div>
@@ -641,7 +656,8 @@
     </div>
 
 
-
+    <script src="./validation.js"></script>
 </body>
+
 
 </html>

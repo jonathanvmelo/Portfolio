@@ -1,6 +1,7 @@
 .contact_section {
     background: var(--secunadry-background-color);
-    padding: 150px 0;
+    padding: 140px 0;
+
 
 }
 
@@ -18,13 +19,69 @@
 .contact_section .txt {
     color: var(--secundary-color);
     font-size: 13px;
+    margin-bottom: 50px;
 }
 
-.contact_section form .form-control {
+.contact_section form .form-group input,
+.form-group textarea {
     background: var(--bg-color-form-inputs);
     border: 2px solid var(--bg-color-form-inputs);
     color: var(--text-color);
+    width: 100%;
+    border-radius: 4px;
 }
+
+.contact_section .form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contact_section .form-group input {
+    min-height: 2.5rem;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+
+input~label {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    color: rgba(255, 255, 255, 0.6);
+    transition: .4s;
+    font-weight: 300;
+    height: 3rem;
+}
+
+input:focus~label,
+input:valid~label {
+    transform: translateY(-26px);
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+}
+
+.input span.error {
+    display: flex;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.contact_section .form-group #message-area {
+    height: 10rem;
+}
+
+.contact_section .form-group .error {
+    display: flex;
+    padding: 0;
+    color: #c50e0e;
+    position: absolute
+}
+
+.contact_section .form-group .error.active {
+    display: flex;
+    padding: 0;
+    color: #c50e0e;
+}
+
 
 .contact_section form button {
     background: var(--accent-color);

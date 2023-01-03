@@ -37,14 +37,14 @@
     color: var(--accent-color);
 }
 
-@media (min-width: 769px){
+@media (min-width: 767px){
     .formation_section {
-        padding: 80px 35px;
+        padding: 80px 40px;
       }
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .formation_section {
       padding: 80px 30px;
     }

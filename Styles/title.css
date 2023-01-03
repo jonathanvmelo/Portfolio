@@ -131,14 +131,20 @@ p {
 
 @media (max-width:1200px) and (min-width:993px) {
 
-
+    .title-section .row .btn_top .fa {
+        top: 93%;
+        left: 95%;
+        width: 40px;
+        height: 40px;
+       
+    }
 
     .title-section .row h1 {
         font-size: 58px;
     }
 }
 
-@media (max-width:993px) and (min-width:768px) {
+@media (max-width:992px) and (min-width:767px) {
     .title-section .row h1 {
         font-size: 42px;
     }
@@ -165,17 +171,17 @@ p {
         font-size: 25px;
     }
 
-    .title-section .row .btn_top a {
+    .title-section .row .btn_top .fa {
         top: 93%;
-        left: 93%;
-        width: 35px;
-        height: 35px;
-        padding: 2px;
+        left: 94%;
+        width: 40px;
+        height: 40px;
+       
     }
 }
 
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .title-section {
         margin-bottom: 50px;
 
@@ -243,11 +249,21 @@ p {
         justify-content: flex-start;
     }
 
-    .title-section .row .btn_top a {
+    .title-section .row .btn_top .fa {
+        top: 93%;
+        left: 92%;
+        width: 33px;
+        height: 33px;
+        padding: 2px;
+    }
+}
+
+@media (max-width:500px){
+    .title-section .row .btn_top .fa {
         top: 93%;
         left: 91%;
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         padding: 2px;
     }
 }

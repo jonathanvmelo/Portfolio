@@ -110,6 +110,10 @@
 
 @media(max-width:767px) {
 
+    .portfolio_section .row{
+        justify-content: center;
+    }
+
     .portfolio_section .card-columns {
         display: flex;
         justify-content: center;
@@ -117,13 +121,13 @@
     }
 
     .portfolio_section {
-        padding: 80px 25px;
+        padding: 80px 0 ;
     }
 }
 
-@media(min-width:769px) {
+@media(min-width:768px) {
     .portfolio_section {
-        padding: 80px 45px;
+        padding: 80px 50px;
     }
 }
 
