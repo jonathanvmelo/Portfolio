@@ -99,39 +99,42 @@
 
 
 @media(max-width:993px) and (min-width:768px) {
-    .about_section .about_me_right_section #txt {
-        font-size: 10px;
+
+
+    .about_section .about_me_right_section {
+        padding-left: 50px;
+        text-align: center;
     }
 
     .about_section #about-title {
-        font-size: 30px;
+        font-size: 50px;
     }
 }
 
 @media(max-width:768px) {
     .about_section {
-
+        text-align: center;
         padding: 50px 25px;
     }
 
     .about_section .about-question {
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 30px;
     }
 
     .about_section #about-title {
-        font-size: 15px;
+        font-size: 30px;
         margin-top: 1.5rem;
     }
 
 
     .about_section .lets-talk {
         font-weight: 300;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .about_section .about_me_right_section button {
-        margin-top: 20px;
+        margin: 40px 0 5px 0;
     }
 
 

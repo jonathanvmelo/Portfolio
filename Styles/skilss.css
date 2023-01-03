@@ -12,16 +12,18 @@
  .skills_section #heading {
      font-size: 50px;
      font-weight: 600;
+     margin-bottom: 0;
  }
 
  .skills_section hr {
      border: .5px solid var(--accent-color);
-     width: 6rem;
-     margin: 12px 0px;
+     max-width: 8rem;
+     margin: 5px 0;
  }
 
  .left p {
-     color: #bbbbbb;
+     padding-top: 18px;
+     color: var(--secundary-color);
  }
 
  .skills_section .social_media_icons .list-group-item {
@@ -77,7 +79,7 @@
 
 
  /* ----------------------------- */
- 
+
  @media(min-width:769px) {
      .skills_section {
          padding: 80px 45px;
@@ -86,7 +88,22 @@
 
  @media(max-width:768px) {
      .skills_section {
+         display: flex;
+         justify-content: center;
+         text-align: center;
          margin: 0 20px;
          padding: 80px 25px;
+     }
+
+     .skills_section hr {
+         border: .5px solid var(--accent-color);
+         margin: 0 auto;
+         margin-bottom: 15px;
+     }
+
+     .list-group {
+         align-items: center;
+         flex-direction: row;
+
      }
  }

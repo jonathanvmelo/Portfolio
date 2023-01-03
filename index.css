@@ -20,6 +20,10 @@ html {
     scroll-behavior: smooth;
 }
 
+:target {
+    scroll-margin-top: -3em;
+}
+
 body {
     background-color: var(--background-color) !important;
 }

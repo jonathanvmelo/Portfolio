@@ -5,7 +5,6 @@
 .title-section .row {
     display: flex;
     align-items: center;
-    height: 100vh;
 }
 
 .title-section .row h1,
@@ -124,9 +123,6 @@ p {
 }
 
 
-
-
-
 /* Responsive Title */
 
 @media (max-width:1200px) and (min-width:993px) {
@@ -136,7 +132,6 @@ p {
         left: 95%;
         width: 40px;
         height: 40px;
-       
     }
 
     .title-section .row h1 {
@@ -176,17 +171,20 @@ p {
         left: 94%;
         width: 40px;
         height: 40px;
-       
     }
 }
 
 
 @media (max-width:767px) {
     .title-section {
-        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px 30px;
+    }
 
-        padding: 40px 30px;
-
+    .title-section .row h3 {
+        margin-left: -95px;
     }
 
     .title-section .row {
@@ -194,7 +192,9 @@ p {
     }
 
     .title-section .row img {
-        width: 50%;
+        margin-top: 50px;
+        width: 70%;
+        margin: 0;
     }
 
     .title-section .row h1 {
@@ -217,8 +217,6 @@ p {
     }
 
     .title-section .btn_container {
-        display: flex;
-
         align-items: center;
         margin-top: 2.5rem;
     }
@@ -226,7 +224,6 @@ p {
     .title-section .row h3 {
         font-size: 15px;
         margin-top: 95px;
-
     }
 
     .title-section .row h3::after {
@@ -245,8 +242,8 @@ p {
 
     .title-section .row img {
         margin-top: 40px;
-        display: flex;
-        justify-content: flex-start;
+
+        justify-content: center;
     }
 
     .title-section .row .btn_top .fa {
@@ -258,12 +255,16 @@ p {
     }
 }
 
-@media (max-width:500px){
+@media (max-width:500px) {
     .title-section .row .btn_top .fa {
         top: 93%;
-        left: 91%;
+        left: 91.7%;
         width: 30px;
         height: 30px;
         padding: 2px;
+    }
+
+    .title-section .row h3 {
+        margin-left: -95px;
     }
 }

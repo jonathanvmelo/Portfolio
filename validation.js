@@ -1,9 +1,11 @@
 
 const fields = document.querySelectorAll("[required]")
 
-// console.log(fields);
+
 
 function validateField(field) {
+
+    // Verify Errors
     function verifyErrors() {
         let foundError = false
         for (let error in field.validity) {
@@ -52,7 +54,7 @@ function validateField(field) {
             field.style.borderColor = "red"
             setCustomMessage(message)
         } else {
-            field.style.borderColor = "green"
+
             setCustomMessage()
 
         }
@@ -66,16 +68,7 @@ function customValidation(event) {
 
     validation();
 
-
-
     const error = validateField(field)
-
-    // //Verify Errors
-
-
-
-
-
 
 
     //Change message 
@@ -91,29 +84,7 @@ for (let field of fields) {
 
 
 
+document.querySelector("form").addEventListener("submit", () => {
+    alert("Obrigado pela mensagem! Logo entrarei em contato!");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-document.querySelector("form").addEventListener("submit", event => {
-    console.log("Submit");
-    event.preventDefault();
 })
