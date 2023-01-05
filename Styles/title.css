@@ -1,5 +1,5 @@
 .title-section {
-    padding: 0 20px;
+    padding: 50px 0px;
 }
 
 .title-section .row {
@@ -10,6 +10,7 @@
 .title-section .row h1,
 h2,
 h3,
+h4,
 p {
     color: var(--text-color);
 }
@@ -35,21 +36,23 @@ p {
     font-size: 65px;
     font-weight: 800;
     color: var(--text-color);
-
+    animation: bounceInDown;
+    animation-duration: 2s;
 }
 
 .title-section .row .span {
     animation: bounceInDown;
     animation-duration: 2s;
     animation-delay: 3s;
-
 }
 
 .title-section .row h2 {
     font-size: 20px;
     font-weight: 100;
     margin: 8px 0px;
-
+    animation: bounceInLeft;
+    animation-duration: 2s;
+    animation-delay: 1s;
 }
 
 .title-section .row p {
@@ -69,29 +72,18 @@ p {
     margin-top: 10 px;
     animation: tada;
     animation-duration: 1s;
-    animation-delay: 8s;
+    animation-delay: 4s;
 }
 
-/* .title-section .row button :hover {
+.title-section .row button:hover {
     background: var(--text-color);
     color: var(--background-color);
     border-color: var(--card-bg-color);
-} */
-
-.title-section .row button a {
-    text-decoration: none;
-    color: var(--text-color);
-    background-color: var(--accent-color);
 }
 
-/* .title-section .row button a:hover {
-    background: var(--text-color);
-    color: var(--background-color);
-    border-color: var(--card-bg-color);
-} */
-
-
-.title-section .row img {
+.title-section .img {
+    flex: 0 0 40%;
+    position: relative;
     width: 80%;
     border-radius: 30px;
     border-right: 3px solid var(--accent-color);
@@ -99,22 +91,15 @@ p {
 }
 
 .title-section .row .btn_top .fa {
+    position: fixed;
+    top: 95.5%;
+    right: 0;
     color: var(--accent-color);
-    font-size: 17px !important;
     border: 1px solid var(--accent-color);
     padding: 10px;
-    height: 40px;
-    width: 40px;
-    position: fixed;
-    top: 93%;
-    left: 96%;
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-    border-radius: 100%;
-    margin-right: 8px;
-    cursor: pointer;
-    z-index: 1;
+    border-radius: 50%;
+    margin-right: 10px;
+    z-index: 101;
 }
 
 .title-section .row .btn_top .fa:hover {
@@ -122,16 +107,12 @@ p {
     background: var(--text-color);
 }
 
-
 /* Responsive Title */
 
 @media (max-width:1200px) and (min-width:993px) {
-
-    .title-section .row .btn_top .fa {
-        top: 93%;
-        left: 95%;
-        width: 40px;
-        height: 40px;
+    .title-section {
+        height: 50vh;
+        padding: 100px 50px;
     }
 
     .title-section .row h1 {
@@ -140,7 +121,14 @@ p {
 }
 
 @media (max-width:992px) and (min-width:767px) {
+
+    .title-section {
+        height: 50vh;
+        padding: 100px 50px;
+    }
+
     .title-section .row h1 {
+
         font-size: 42px;
     }
 
@@ -166,21 +154,35 @@ p {
         font-size: 25px;
     }
 
-    .title-section .row .btn_top .fa {
-        top: 93%;
-        left: 94%;
-        width: 40px;
-        height: 40px;
+    .title-section .right_section {
+       padding-left: 60px;
+    }
+
+    .title-section .img {
+        width: 100%;
     }
 }
 
 
 @media (max-width:767px) {
+
+
     .title-section {
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 30px 30px;
+        padding: 10px 30px;
+    }
+
+    .title-section .row h3::after {
+        content: '';
+        position: absolute;
+        text-align: center;
+        top: -36px;
+        width: 70px;
+        height: 2px;
+        background: var(--accent-color);
+        margin-left: 6px;
     }
 
     .title-section .row h3 {
@@ -193,25 +195,26 @@ p {
 
     .title-section .row img {
         margin-top: 50px;
-        width: 70%;
+        width: 50%;
         margin: 0;
     }
 
     .title-section .row h1 {
         font-size: 46px;
+    }
 
-        margin-top: 1rem;
+    .title-section .row img {
+        margin: 0;
     }
 
     .title-section .row h2 {
-        font-size: 18px;
+        font-size: 22px;
 
         margin-top: 1.5rem;
     }
 
     .title-section .row p {
         font-size: 14px;
-
         line-height: 1rem;
         margin-top: 1.5rem;
     }
@@ -223,7 +226,7 @@ p {
 
     .title-section .row h3 {
         font-size: 15px;
-        margin-top: 95px;
+        margin-top: 40px;
     }
 
     .title-section .row h3::after {
@@ -242,29 +245,17 @@ p {
 
     .title-section .row img {
         margin-top: 40px;
-
         justify-content: center;
-    }
-
-    .title-section .row .btn_top .fa {
-        top: 93%;
-        left: 92%;
-        width: 33px;
-        height: 33px;
-        padding: 2px;
     }
 }
 
 @media (max-width:500px) {
-    .title-section .row .btn_top .fa {
-        top: 93%;
-        left: 91.7%;
-        width: 30px;
-        height: 30px;
-        padding: 2px;
-    }
 
+    /* .title-section{
+        height: 70vh;
+    } */
     .title-section .row h3 {
         margin-left: -95px;
     }
+
 }

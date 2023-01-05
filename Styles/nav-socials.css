@@ -1,7 +1,13 @@
+.container-fluid{
+    padding: 0;
+}
+
 .nav_socials {
-    padding: 0 30px;
+    margin: 0;
+    padding: 0 10px;
+    gap: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     background: var(--secunadry-background-color);
     align-items: center;
     height: 60px;

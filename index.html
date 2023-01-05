@@ -33,30 +33,38 @@
     <link rel="stylesheet" href="./Styles/nav-socials.css">
     <link rel="stylesheet" href="./Styles/copyright.css">
 
+
+    <!-- STYLES SWITCHER -->
+    <!-- <link rel="stylesheet" href="./Styles/style-switcher.css">
+    <link rel="stylesheet" href="./Styles/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="./Styles/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="./Styles/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="./Styles/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="./Styles/color-5.css" class="alternate-style" title="color-5" disabled> -->
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
-
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"> -->
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 
 <body>
 
+
     <!-- SOCIALS SECTION -->
-
-    <div class="nav_socials">
-        <div class="title">Socials</div>
-        <div class="links">
-
-
-            <a href="https://github.com/jonathanvmelo/FirstChallenge" class="text-decoration-none read_more"
-                target="_blank"> <i class="fa fa-linkedin-square animate_animated"></i></i></a>
-            <a target="_blank" href="https://github.com/jonathanvmelo"><i class="fa fa-github animate_animated"></i></a>
-            <a target="_blank" href="https://www.instagram.com/jonathanvmelo/"><i
-                    class="fa fa-instagram px-1 animate_animated"></i></a>
-
+    <div class="container-fluid">
+        <div class="nav_socials">
+            <div class="title">Socials</div>
+            <div class="links">
+                <a target="_blank" href="https://www.linkedin.com/in/jonathanvmelo/"><i
+                        class="fa fa-linkedin-square animate_animated"></i></a>
+                <a target="_blank" href="https://github.com/jonathanvmelo"><i
+                        class="fa fa-github animate_animated"></i></a>
+                <a target="_blank" href="https://www.instagram.com/jonathanvmelo/"><i
+                        class="fa fa-instagram px-1 animate_animated"></i></a>
+            </div>
         </div>
     </div>
+
 
     <!-- NAVBAR SECTION -->
 
@@ -76,7 +84,8 @@
                     <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #f87652 !important" href="#">Home</a>
+                            <a class="nav-link" style="color: #f87652 !important" href="#"><i class="fa fa-home"></i>
+                                Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">Sobre</a>
@@ -107,27 +116,29 @@
     <div class="title-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 title_left_section animate_animated">
                     <h3>Olá!</h3>
-                    <h1>Eu sou Jonathan<span class="span animate__bounceInDown">!</span></h1>
-                    <h2>Desenvolvedor Front-End</h2>
+                    <h4>Eu sou</h4>
+                    <h1 class="animate_animated">Jonathan<span class="span animate__animated">!</span></h1>
+                    <h2 class="animate_animated">Desenvolvedor Full Stack</h2>
                     <p>Sou um entusiasta da tecnologia. <br>
                         Apaixonado pelo que faço. <br>
-                        Movido por desafios. <br>
-                        Especialista em soluções para você e seu negócio.</p>
+                        Movido por desafios. <br></p>
                     <div class="btn_container">
-                        <button class="btn btn-light"><a href="#contact">Contato</a></button>
+                        <a href="#contact"><button class="btn btn-light">Contato</button></a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 right_section">
 
-                    <img src="./Images/Eu-3.jpg" alt="">
+                    <img class="img" src="./Images/Eu-3.jpg" alt="Jonathan">
+                    <div class="day-night s-icon">
+
+                    </div>
+
                     <div class="btn_top">
                         <a href="#">
-                            <i class="fa">↑</i>
+                            <i class="fa fa-home"></i>
                         </a>
-
-
                     </div>
 
                 </div>
@@ -149,16 +160,16 @@
                         Durantre minha vida tive a oportundade de acompanhar varias fases da tecnologia. <br>
                         E experimentar como usuário, todos os benefícios e facilidades que ela nos traz. <br>
                         A tecnologia tem mudado minha vida constantemente de uma maneira positiva. <br>
-                        Hoje estou do outra lado , programando solucões para melhorar e agregar valor a sua vida e seu
-                        negócio <br>
+                        Hoje estou do outra lado, programando solucões para melhorar e agregar valor a sua vida e seu
+                        negócio <span>!</span> <br>
                     </p>
 
 
                 </div>
                 <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 about_me_right_section">
-                    <h2 class="about-question">Alguma duvida <span>?</span> <br></h2>
+                    <h2 class="about-question">Quer saber mais <span>?</span> <br></h2>
                     <div>
-                        <h2 class="lets-talk">Vamos conversar<span>.</span></h2>
+                        <h2 class="lets-talk">Entre em contato agora mesmo<span>.</span></h2>
 
                         <a href="mailto:jonathanvmelo@hotmail.com?subject=Assunto do email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Olá, estou entrando em contato "
                             target="_blank"> <i class="info-email fa fa-envelope-o ">
@@ -296,7 +307,8 @@
                                     <img src="./Images/Decodificador.png" alt="Decodificador" class="card-img-top">
                                     <div class="card-body">
                                         <h3 class="title">Decodificador</h3>
-                                        <p class="date">Criado em <span>05.07.22</span>por <span>JonathanVmelo</span>
+                                        <p class="date">Criado em <span>05.07.22</span> por <span>Jonathan V.
+                                                Melo</span>
                                         </p>
                                         <p class="txt ">Aplicação criada com HTML, CSS e
                                             Javascript</p>
@@ -305,9 +317,9 @@
                                                     class="text-decoration-none read_more" target="_blank">Acesse aqui o
                                                     código</a></span>
                                             <span>
-                                                <button><a href="https://jonathanvmelo.github.io/FirstChallenge/"
-                                                        target="_blank">Demo</a>
-                                                </button>
+                                                <a href="https://jonathanvmelo.github.io/FirstChallenge/"
+                                                    target="_blank"><button>Demo</button> </a>
+
                                             </span>
                                         </div>
                                     </div>
@@ -316,7 +328,8 @@
                                     <img src="./Images/Jogo da Velha.png" alt="Jogo da velha" class="card-img-top">
                                     <div class="card-body">
                                         <h3 class="title">Jogo da Velha</h3>
-                                        <p class="date">Criado em <span>05.07.22</span>por <span>JonathanVmelo</span>
+                                        <p class="date">Criado em <span>05.07.22</span> por <span>Jonathan V.
+                                                Melo</span>
                                         </p>
                                         <p class="txt ">Aplicação criada com HTML, CSS e
                                             Javascript</p>
@@ -326,9 +339,9 @@
                                                     código</a>
                                             </span>
                                             <span>
-                                                <button><a href="https://jonathanvmelo.github.io/Jogo-da-Velha/"
-                                                        target="_blank">Demo</a>
-                                                </button>
+                                                <a href="https://jonathanvmelo.github.io/Jogo-da-Velha/"
+                                                    target="_blank"><button>Demo</button> </a>
+
                                             </span>
                                         </div>
                                     </div>
@@ -337,7 +350,8 @@
                                     <img src="./Images/Jogo da Forca.png" alt="Jogo da forca" class="card-img-top">
                                     <div class="card-body">
                                         <h3 class="title">Jogo da Forca</h3>
-                                        <p class="date">Criado em <span>05.07.22</span>por <span>JonathanVmelo</span>
+                                        <p class="date">Criado em <span>05.07.22</span> por <span>Jonathan V.
+                                                Melo</span>
                                         </p>
                                         <p class="txt ">Aplicação criada com HTML, CSS e
                                             Javascript</p>
@@ -346,9 +360,9 @@
                                                     class="text-decoration-none read_more">Acesse aqui o
                                                     código</a></span>
                                             <span>
-                                                <button><a href="https://jonathanvmelo.github.io/Hangman/"
-                                                        target="_blank">Demo</a>
-                                                </button>
+                                                <a href="https://jonathanvmelo.github.io/Hangman/"
+                                                    target="_blank"><button>Demo</button></a>
+
                                             </span>
                                         </div>
                                     </div>
@@ -362,7 +376,8 @@
                                     <img src="./Images/Decodificador.png" alt="Decodificador" class="card-img-top">
                                     <div class="card-body">
                                         <h3 class="title">Desenvolvimento Web</h3>
-                                        <p class="date">Criado em <span>05.07.22</span>por <span>JonathanVmelo</span>
+                                        <p class="date">Criado em <span>05.07.22</span> por <span>Jonathan V.
+                                                Melo</span>
                                         </p>
                                         <p class="txt ">Aplicação criada com HTML, CSS e
                                             Javascript</p>
@@ -370,8 +385,8 @@
                                             <span> <a class="text-decoration-none read_more">Acesse aqui o
                                                     código</a></span>
                                             <span>
-                                                <button><a href="#" target="_blank">Demo</a>
-                                                </button>
+                                                <a href="https://jonathanvmelo.github.io/Hangman/"
+                                                    target="_blank"><button>Demo</button></a>
                                             </span>
                                         </div>
                                     </div>
@@ -380,7 +395,8 @@
                                     <img src="./Images/Jogo da Velha.png" alt="Jogo da velha" class="card-img-top">
                                     <div class="card-body">
                                         <h3 class="title">Desenvolvimento Web</h3>
-                                        <p class="date">Criado em <span>05.07.22</span>por <span>JonathanVmelo</span>
+                                        <p class="date">Criado em <span>05.07.22</span> por <span>Jonathan V.
+                                                Melo</span>
                                         </p>
                                         <p class="txt ">Aplicação criada com HTML, CSS e
                                             Javascript</p>
@@ -388,8 +404,8 @@
                                             <span> <a class="text-decoration-none read_more">Acesse aqui o
                                                     código</a></span>
                                             <span>
-                                                <button><a href="#" target="_blank">Demo</a>
-                                                </button>
+                                                <a href="https://jonathanvmelo.github.io/Hangman/"
+                                                    target="_blank"><button>Demo</button></a>
                                             </span>
                                         </div>
                                     </div>
@@ -398,7 +414,8 @@
                                     <img src="./Images/Jogo da Forca.png" alt="Jogo da forca" class="card-img-top">
                                     <div class="card-body">
                                         <h3 class="title">Desenvolvimento Web</h3>
-                                        <p class="date">Criado em <span>05.07.22</span>por <span>JonathanVmelo</span>
+                                        <p class="date">Criado em <span>05.07.22</span> por <span>Jonathan V.
+                                                Melo</span>
                                         </p>
                                         <p class="txt ">Aplicação criada com HTML, CSS e
                                             Javascript</p>
@@ -406,8 +423,8 @@
                                             <span> <a class="text-decoration-none read_more">Acesse aqui o
                                                     código</a></span>
                                             <span>
-                                                <button><a href="#" target="_blank">Demo</a>
-                                                </button>
+                                                <a href="https://jonathanvmelo.github.io/Hangman/"
+                                                    target="_blank"><button>Demo</button></a>
                                             </span>
                                         </div>
                                     </div>
@@ -416,7 +433,8 @@
                                     <img src="./Images/Jogo da Velha.png" alt="Jogo da velha" class="card-img-top">
                                     <div class="card-body">
                                         <h3 class="title">Desenvolvimento Web</h3>
-                                        <p class="date">Criado em <span>05.07.22</span>por <span>JonathanVmelo</span>
+                                        <p class="date">Criado em <span>05.07.22</span> por <span>Jonathan V.
+                                                Melo</span>
                                         </p>
                                         <p class="txt ">Aplicação criada com HTML, CSS e
                                             Javascript</p>
@@ -424,8 +442,8 @@
                                             <span> <a class="text-decoration-none read_more">Acesse aqui o
                                                     código</a></span>
                                             <span>
-                                                <button><a href="#" target="_blank">Demo</a>
-                                                </button>
+                                                <a href="https://jonathanvmelo.github.io/Hangman/"
+                                                    target="_blank"><button>Demo</button></a>
                                             </span>
                                         </div>
                                     </div>
@@ -434,7 +452,8 @@
                                     <img src="./Images/Jogo da Forca.png" alt="Jogo da forca" class="card-img-top">
                                     <div class="card-body">
                                         <h3 class="title">Desenvolvimento Web</h3>
-                                        <p class="date">Criado em <span>05.07.22</span>por <span>JonathanVmelo</span>
+                                        <p class="date">Criado em <span>05.07.22</span> por <span>Jonathan V.
+                                                Melo</span>
                                         </p>
                                         <p class="txt ">Aplicação criada com HTML, CSS e
                                             Javascript</p>
@@ -442,8 +461,8 @@
                                             <span> <a class="text-decoration-none read_more">Acesse aqui o
                                                     código</a></span>
                                             <span>
-                                                <button><a href="#" target="_blank">Demo</a>
-                                                </button>
+                                                <a href="https://jonathanvmelo.github.io/Hangman/"
+                                                    target="_blank"><button>Demo</button></a>
                                             </span>
                                         </div>
                                     </div>
@@ -465,6 +484,7 @@
             <div class="row">
                 <div id="heading" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h1 class="text-white text-center">Cursos e Formações </h1>
+                    <hr>
                 </div>
             </div>
             <div class="row mt-5">
@@ -477,8 +497,14 @@
                             <h3 class="title">Analise e Desenvolvimento de Sistemas</h3>
                             <p class="date">Iniciado em: &nbsp<span>02/23 &nbsp</span><br>Finalizado
                                 em:&nbsp&nbsp<span>&nbspEm Andamento</span></p>
-                            <p class="txt ">Curso superior</p>
-
+                            <div class="txt">
+                                <ul>
+                                    <li>- Projeto</li>
+                                    <li>- em</li>
+                                    <li>- execussão</li>
+                                    <li>- !</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -492,8 +518,17 @@
                             <p class="date">Iniciado em &nbsp<span>10/22 &nbsp</span><br>Finalizado em:
                                 <span>&nbsp 01/2023</span>
                             </p>
-                            <p class="txt">Orientação a objetos e dominio das principais bibliotecas do mundo Java.</p>
+                            <div class="txt">
+                                <ul>
+                                    <li>- Orientação a Objetos</li>
+                                    <li>- Excessões</li>
+                                    <li>- Java.lang</li>
+                                    <li>- Java.util</li>
+                                    <li>- Wrappers e Lambda</li>
+                                    <li>- JDBC, trabalhando com banco de dados</li>
+                                </ul>
 
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -506,7 +541,17 @@
                             <h3 class="title">Iniciante em Programação T3 - ONE</h3>
                             <p class="date">Iniciado em &nbsp<span>05/22 &nbsp</span><br>Finalizado em: <span>&nbspEm
                                     Andamento</span></p>
-                            <p class="txt">Lógica de programação e algoritmos</p>
+                            <div class="txt">
+                                <ul>
+                                    <li>- Lógica de programação</li>
+                                    <li>- Algoritmos</li>
+                                    <li>- E mais...</li>
+                                    <li>- </li>
+                                    <li>- </li>
+                                </ul>
+
+                            </div>
+
 
                         </div>
                     </div>
@@ -521,7 +566,17 @@
                             <p class="date">Iniciado em &nbsp<span>10/22 &nbsp</span><br>Finalizado em:
                                 <span>&nbsp 01/2023</span>
                             </p>
-                            <p class="txt">Foco em HTML, CSS, JavaScript e mais!</p>
+                            <div class="txt">
+                                <ul>
+                                    <li>- HTML5</li>
+                                    <li>- CSS3</li>
+                                    <li>- Javascript</li>
+                                    <li>- Projetos</li>
+                                    <li>- E mais...</li>
+                                </ul>
+
+                            </div>
+
 
                         </div>
                     </div>
@@ -536,7 +591,17 @@
                             <p class="date">Iniciado em &nbsp<span>10/22 &nbsp</span><br>Finalizado em:
                                 <span>&nbsp 01/2023</span>
                             </p>
-                            <p class="txt">Prepare sua organização para a transformação ágil.</p>
+                            <div class="txt">
+                                <ul>
+                                    <li>- Estrutura empresarial</li>
+                                    <li>- Ambiente ágil</li>
+                                    <li>- Agregar valor ao negócio</li>
+                                    <li>- Scrum</li>
+                                    <li>- Kamban</li>
+                                    <li>- E mais...</li>
+                                </ul>
+
+                            </div>
 
                         </div>
                     </div>
@@ -573,7 +638,7 @@
                             </div>
 
                             <div class="form-group">
-                                <input class="input" required type="text" id="message-area" maxlength="50">
+                                <input class="input" required type="text" maxlength="50">
                                 <label>Menssagem</label>
                                 <span class="error"></span>
                             </div>
@@ -589,24 +654,27 @@
                             </div>
 
 
+
+
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right_section">
 
                     <ul class="list-unstyle">
                         <li>
                             <a href="mailto:jonathanvmelo@hotmail.com?subject=Assunto do email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Olá, estou entrando em contato "
                                 target="_blank"> <i class="info-email fa fa-envelope-o ">
-                                    jonathanvmelo@hotmail.com</i></a>
+                                    Email</i></a>
                         </li>
                         <li>
                             <a href="https://web.whatsapp.com/send?phone=5547996254568" target="_blank"> <i
-                                    class="fa fa-whatsapp ">&nbsp
+                                    class="fa fa-whatsapp ">
                                     Whatsapp</i></a>
-
                         </li>
                     </ul>
+
+
 
                 </div>
             </div>
@@ -629,8 +697,9 @@
                 </div>
                 <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12 column">
                     <div class="links">
-                        <a href="https://github.com/jonathanvmelo/FirstChallenge" class="text-decoration-none read_more"
-                            target="_blank"> <i class="fa fa-linkedin-square animate_animated"></i></i></a>
+
+                        <a target="_blank" href="https://www.linkedin.com/in/jonathanvmelo/"><i
+                                class="fa fa-linkedin-square animate_animated"></i></a>
                         <a target="_blank" href="https://github.com/jonathanvmelo"><i
                                 class="fa fa-github animate_animated"></i></a>
                         <a target="_blank" href="https://www.instagram.com/jonathanvmelo/"><i
@@ -643,7 +712,7 @@
         </div>
     </div>
 
-    <!-- FOOTER COPYRIGHT -->
+    <!-- FOOTER COPYRIGHT SECTION-->
 
     <div class="footer_copyright">
         <div class="container-fluid">
@@ -658,6 +727,27 @@
     </div>
 
 
+    <!-- SWITCHER SECTION -->
+    <!-- <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fa fa-cog fa-spin "></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="bi bi-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div> -->
+
+
+
+    <!-- <script src="./Js/darkMode.js"></script> -->
     <script src="./validation.js"></script>
 </body>
 

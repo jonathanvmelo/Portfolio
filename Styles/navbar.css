@@ -1,7 +1,13 @@
 .nav_section .navbar-brand {
-
     font-size: 30px;
     color: var(--text-color) !important;
+}
+
+
+.container-fluid,
+.nav_section .navbar {
+    padding: 0 10px 0 25px;
+    margin: 0;
 }
 
 .nav_section .navbar-brand span {

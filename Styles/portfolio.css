@@ -5,6 +5,7 @@
 
 .portfolio_section .container {
     width: 100%;
+    padding: 0 35px;
 }
 
 .portfolio_section .under {
@@ -72,6 +73,7 @@
 
 .portfolio_section .card-body .date span {
     color: var(--accent-color);
+    margin:0 1px;
 }
 
 .portfolio_section .card-body .txt {
@@ -85,16 +87,15 @@
 }
 
 .portfolio_section .card-body a {
-    display: flex;
-    justify-content: space-between;
     color: var(--accent-color);
     text-decoration: none;
+    font-weight: 300;
 }
 
 .portfolio_section .card-body .links span button:hover {
-    color: var(--text-color);
-    background: var(--accent-color);
-    border: 1px solid var(--text-color);
+    color: var(--card-bg-color);
+    background: var(--text-color);
+    border: 1px solid var(--card-bg-color);
     border-radius: 2px;
 }
 
@@ -108,8 +109,9 @@
 }
 
 .portfolio_section .card-body .links span button {
-    background: var(--text-color);
+    background: var(--accent-color);
     border: .5px solid var(--secundary-color);
+    color: var(--text-color);
     border-radius: 2px;
     font-weight: 400;
 }
@@ -118,7 +120,7 @@
 
 @media(max-width:767px) {
     .portfolio_section {
-        padding: 80px 30px;
+        padding: 80px 20px;
     }
 
     .portfolio_section .under {
@@ -139,8 +141,6 @@
         margin: 0;
         padding: 0;
     }
-
-
 }
 
 @media(max-width:993px) and (min-width:768px) {
@@ -148,14 +148,10 @@
         padding: 80px 10px;
         margin: 0;
     }
-
-    .portfolio_section .row {
-        padding: 0;
-    }
 }
 
 @media(max-width:500px) {
     .portfolio_section {
-        padding: 100px 13px;
+        padding: 100px 0px;
     }
 }

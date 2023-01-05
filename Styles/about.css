@@ -1,7 +1,10 @@
 .about_section {
     background-color: var(--secunadry-background-color);
     padding: 140px 0;
+}
 
+.about_section .about_me_left_section {
+padding-right: 100px;
 }
 
 .about_section .about-question {
@@ -54,8 +57,14 @@
     font-weight: 600;
     font-size: 50px;
     letter-spacing: 0.5px;
-
     color: var(--text-color);
+}
+
+.about_section hr{
+    border: .5px solid var(--accent-color);
+    max-width: 12.5rem;
+    margin: 5px 0;
+    margin-bottom: 25px;
 }
 
 .about_section .about_me_right_section #txt {
@@ -114,17 +123,20 @@
 @media(max-width:768px) {
     .about_section {
         text-align: center;
-        padding: 50px 25px;
+        padding: 50px 40px;
     }
 
+    .about_section .about_me_left_section {
+        padding-right: 0px;
+        }
     .about_section .about-question {
         font-size: 25px;
         margin-top: 30px;
     }
 
     .about_section #about-title {
-        font-size: 30px;
-        margin-top: 1.5rem;
+        font-size: 40px;
+        margin: 1.5rem 0 2px 0;
     }
 
 
@@ -137,5 +149,21 @@
         margin: 40px 0 5px 0;
     }
 
+    .about_section  hr{
+       margin: 0px auto 40px;
+       ;
+    }
 
+}
+
+@media(max-width:500px){
+    .about_section {
+        text-align: center;
+        padding: 50px 38px;
+    }
+
+    .about_section #about-title {
+        font-size: 35px;
+        margin: 1.5rem 0 2px 0;
+    }
 }

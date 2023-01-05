@@ -1,8 +1,6 @@
 .contact_section {
     background: var(--secunadry-background-color);
     padding: 140px 0;
-
-
 }
 
 .contact_section .heading {
@@ -12,7 +10,7 @@
 
 .contact_section hr {
     border: .5px solid var(--accent-color);
-    width: 6rem;
+    width: 12rem;
     margin: 12px 0;
 }
 
@@ -32,21 +30,21 @@
 
 .contact_section .form-group {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .contact_section .form-group .input {
     min-height: 2.5rem;
     border-radius: 5px;
-    padding-left: 7px;
+    padding-left: 8px;
     font-size: 13px;
 }
 
 .input~label {
     position: absolute;
-    top: 7px;
-    left: 7px;
-    color: rgba(255, 255, 255, 0.6);
+    top: 10px;
+    left: 9px;
+    color: var(--secundary-color);
     transition: .4s;
     font-weight: 300;
     height: 3rem;
@@ -55,38 +53,21 @@
 
 .input:focus~label,
 .input:valid~label {
-    transform: translateY(-26px);
+    transform: translateY(-30px);
     font-size: 0.8em;
     letter-spacing: 0.1em;
 }
 
 .contact_section .form-group .error {
     position: absolute;
-    top: -19px;
-    left: 110px;
+    top: 43px;
+    left: 10px;
     display: flex;
     padding: 0;
-    width: 100%;
-    color: var(--secundary-color) !important;
+    color: var(--error-color) !important;
     font-size: 12px;
-    text-align: end;
-
-
-}
-
-.contact_section .form-group #message-area {
-    height: 10rem;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 1;
-
-}
-
-.contact_section .form-group .error {
-    display: flex;
-    padding: 0;
-    color: #c50e0e;
-    position: absolute
+    letter-spacing: 1px;
+    font-weight: 300;
 }
 
 .contact_section .form-group .error.active {
@@ -94,7 +75,6 @@
     padding: 0;
     color: #c50e0e;
 }
-
 
 .contact_section form button {
     background: var(--accent-color);
@@ -109,20 +89,21 @@
     animation: swing .5s;
 }
 
-.contact_section ul li {
-    columns: var(--text-color);
-    font-size: 15px;
-    margin-bottom: 8px;
-    word-spacing: 3px;
-}
-
-.contact_section ul li .fa {
-    color: var(--accent-color);
-    cursor: pointer;
+.contact_section .list-unstyle  {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .contact_section ul li .fa:hover {
     color: var(--text-color);
+    cursor: pointer;
+}
+
+.contact_section ul li .fa {
+    color: var(--accent-color);
     cursor: pointer;
 }
 
@@ -140,15 +121,14 @@
         font-size: 42px;
     }
 
-    .contact_section .list-unstyle div {
-        height: 400px;
+    .contact_section .list-unstyle {
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
 
-    .contact_section ul li {
-        display: flex;
-        align-items: center;
-        height: 100%;
-    }
 }
 
 @media (max-width: 768px) {
@@ -160,7 +140,13 @@
         font-size: 38px;
     }
 
+
     .contact_section .list-unstyle {
         padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
 }

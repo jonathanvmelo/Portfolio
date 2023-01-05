@@ -50,8 +50,7 @@ function validateField(field) {
 
         if (error) {
             const message = customMessage(error)
-
-            field.style.borderColor = "red"
+          
             setCustomMessage(message)
         } else {
 
