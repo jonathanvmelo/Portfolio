@@ -1,6 +1,6 @@
 .about_section {
     background-color: var(--secunadry-background-color);
-    padding: 200px 0;
+    padding: 200px 0 180px 50px;
 
 }
 
@@ -110,25 +110,39 @@
 
 
 /* ---------------------------------------------------- */
+@media(max-width:1200px) and (min-width:993px) {
+    .about_section {
+        padding: 150px 50px 150px 50px;
+    }
 
+    .about_section .about_me_left_section{
+        padding-right: 50px;
+    }
+
+    .about_section .about-question {
+        font-size: 39px;
+    }
+}
 
 @media(max-width:993px) and (min-width:768px) {
 
+    .about_section {
+        padding: 150px 50px 150px 50px;
+    }
 
-    .about_section .about_me_right_section {
-        padding-left: 50px;
-        text-align: center;
+    .about_section .about_me_left_section{
+        padding-right: 50px;
     }
 
     .about_section #about-title {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 
 @media(max-width:768px) {
     .about_section {
         text-align: center;
-        padding: 50px 40px;
+        padding: 50px 50px;
     }
 
     .about_section .about_me_left_section {
@@ -136,40 +150,42 @@
     }
 
     .about_section .about-question {
-        font-size: 25px;
+        font-size: 40px;
         margin-top: 30px;
     }
 
     .about_section #about-title {
         font-size: 40px;
-        margin: 1.5rem 0 2px 0;
+        margin: 0 0 2px 0;
     }
-
 
     .about_section .lets-talk {
         font-weight: 300;
         font-size: 18px;
     }
 
-    .about_section .about_me_right_section button {
+    .about_section button {
         margin: 40px 0 5px 0;
     }
 
     .about_section hr {
         margin: 0px auto 40px;
-        ;
     }
-
 }
 
 @media(max-width:500px) {
     .about_section {
         text-align: center;
-        padding: 50px 38px;
+        padding: 50px 60px;
     }
 
     .about_section #about-title {
         font-size: 35px;
-        margin: 1.5rem 0 2px 0;
+    }
+
+    .about_section .about-question {
+        margin-top: 70px;
+        font-size: 30px;
+        font-weight: 600;
     }
 }

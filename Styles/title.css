@@ -1,5 +1,5 @@
 .title-section {
-    padding: 0 0 250px 0px;
+    padding: 100px 60px 150px 60px;
 }
 
 .title-section .row {
@@ -135,10 +135,6 @@ p {
         padding: 100px 50px;
     }
 
-    .title-section .row {
-        height: 550px;
-    }
-
     .title-section .row h1 {
         font-size: 58px;
     }
@@ -148,10 +144,6 @@ p {
 
     .title-section {
         padding: 100px 50px;
-    }
-
-    .title-section .row {
-        height: 550px;
     }
 
     .title-section .row h1 {
@@ -202,6 +194,7 @@ p {
 
     .title-section .row {
         margin-bottom: 50px;
+        padding: 25px 0;
     }
 
     .title-section .right_section {
@@ -236,23 +229,24 @@ p {
 
     .title-section .row img {
         margin: 0;
+        width: 50%;
     }
 
     .title-section .row h2 {
         font-size: 22px;
 
-        margin-top: 1.5rem;
+        margin-top: .5rem;
     }
 
     .title-section .row p {
         font-size: 14px;
         line-height: 1rem;
-        margin-top: 1.5rem;
+        margin-top: .5rem;
     }
 
     .title-section .btn_container {
         align-items: center;
-        margin-top: 2.5rem;
+        margin-top: .5rem;
     }
 
     .title-section .row h3 {
@@ -282,8 +276,19 @@ p {
 
 @media (max-width:500px) {
 
+    .title-section{
+        padding-bottom: 50px;
+    }
+    .title-section .row {
+        padding: 0;
+    }
+
     .title-section .row h3 {
         margin-left: -95px;
+    }
+
+    .title-section .row img {
+        width: 60%;
     }
 
 }

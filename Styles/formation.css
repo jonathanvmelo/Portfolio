@@ -57,7 +57,31 @@
 
 @media (max-width: 767px) {
     .formation_section {
-      padding: 80px 35px;
+      padding: 80px 55px;
+    }
+
+    .formation_section .card-header {
+        display: none;
+    }
+
+    .formation_section hr {
+        width: 18rem;
+    }
+
+    .formation_section .card-body #heading{
+        text-align: center;
+    }
+
+     .formation_section .row #heading h1 {
+        padding-left: 0px;
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 500px) {
+    .formation_section {
+      padding: 80px 50px;
     }
 
     .formation_section .card-header {
@@ -70,7 +94,10 @@
 
      .formation_section .row #heading h1 {
         padding-left: 0px;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 500;
+    }
+    .formation_section hr {
+        width: 20rem;
     }
 }

@@ -1,12 +1,15 @@
 .portfolio_section {
     background: var(--secunadry-background-color);
     padding: 200px 0;
-    visibility: hidden;
 }
 
 .portfolio_section .container {
     width: 100%;
     padding: 50px 35px
+}
+
+.portfolio_section h1{
+    font-size: 50px;
 }
 
 .portfolio_section .under {
@@ -36,11 +39,9 @@
 
 .portfolio_section hr {
     border: .5px solid var(--accent-color);
-    max-width: 18rem;
+    max-width: 23rem;
     margin: 12px auto;
 }
-
-
 
 .portfolio_section .nav-tabs .nav-item.show .nav-link {
     font-weight: 400;
