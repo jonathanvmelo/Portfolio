@@ -1,13 +1,13 @@
-.container-fluid{
+.container-fluid {
     padding: 0;
 }
 
 .nav_socials {
     margin: 0;
-    padding: 0 10px;
+    padding: 0 15px;
     gap: 50px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background: var(--secunadry-background-color);
     align-items: center;
     height: 60px;
@@ -28,7 +28,7 @@
     text-align: center;
     justify-content: center;
     border-radius: 100%;
-    margin-right: 5px;
+    margin-left: 5px;
     cursor: pointer;
 }
 

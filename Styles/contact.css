@@ -133,7 +133,7 @@
 
 @media (max-width: 768px) {
     .contact_section {
-        padding: 40px 40px;
+        padding: 40px 45px;
     }
 
     .contact_section .heading {
@@ -150,3 +150,9 @@
         align-items: flex-start;
     }
 }
+/* 
+@media (max-width: 500px) {
+    .contact_section {
+        padding: 40px 45px;
+    }
+} */

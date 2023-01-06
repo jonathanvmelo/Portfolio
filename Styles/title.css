@@ -92,7 +92,7 @@ p {
 
 .title-section .row .btn_top .fa {
     position: fixed;
-    top: 95.5%;
+    top: 94%;
     right: 0;
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
@@ -155,7 +155,7 @@ p {
     }
 
     .title-section .right_section {
-       padding-left: 60px;
+        padding-left: 60px;
     }
 
     .title-section .img {
