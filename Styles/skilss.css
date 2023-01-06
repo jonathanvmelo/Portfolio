@@ -1,6 +1,9 @@
- .skills_section {
-     padding: 100px 0px;
+.skills_section {
+     padding: 0px 0px;
+ }
 
+ .skills_section .row{
+    padding: 150px 0;
  }
 
  .skills_section_left_section {

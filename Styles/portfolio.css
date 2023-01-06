@@ -1,11 +1,12 @@
 .portfolio_section {
     background: var(--secunadry-background-color);
-    padding: 170px 0;
+    padding: 250px 0;
+    visibility: hidden;
 }
 
 .portfolio_section .container {
     width: 100%;
-    padding: 0 35px;
+    padding: 100px 35px
 }
 
 .portfolio_section .under {
@@ -73,7 +74,7 @@
 
 .portfolio_section .card-body .date span {
     color: var(--accent-color);
-    margin:0 1px;
+    margin: 0 1px;
 }
 
 .portfolio_section .card-body .txt {
@@ -118,11 +119,11 @@
 
 /* ----------------------------- */
 @media (max-width:992px) and (min-width:767px) {
-    .portfolio_section .card-body .title{
+    .portfolio_section .card-body .title {
         font-size: 22px;
     }
 
-    .portfolio_section .card-body a{
+    .portfolio_section .card-body a {
         font-size: 13px;
     }
 }
@@ -165,4 +166,6 @@
     .portfolio_section {
         padding: 100px 0px;
     }
+
+
 }

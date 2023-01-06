@@ -1,10 +1,24 @@
 .title-section {
-    padding: 50px 0px;
+    padding: 250px 0px;
 }
 
 .title-section .row {
     display: flex;
     align-items: center;
+    padding: 100px 0;
+}
+
+.title-section .title_left_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65%;
+}
+
+.title-section .right_section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .title-section .row h1,
@@ -13,12 +27,6 @@ h3,
 h4,
 p {
     color: var(--text-color);
-}
-
-.title-section .row {
-    font-size: 19px;
-    font-weight: 300;
-    margin-bottom: 15px;
 }
 
 .title-section .row h3::after {
@@ -33,7 +41,7 @@ p {
 }
 
 .title-section .row h1 {
-    font-size: 65px;
+    font-size: 75px;
     font-weight: 800;
     color: var(--text-color);
     animation: bounceInDown;
@@ -46,17 +54,26 @@ p {
     animation-delay: 3s;
 }
 
-.title-section .row h2 {
+.title-section .row h3 {
+    font-weight: 400;
     font-size: 20px;
+}
+
+.title-section .row h4 {
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.title-section .row h2 {
+    font-size: 25px;
     font-weight: 100;
-    margin: 8px 0px;
     animation: bounceInLeft;
     animation-duration: 2s;
     animation-delay: 1s;
 }
 
 .title-section .row p {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: .13px;
     line-height: 21px;
     color: var(--secundary-color);
@@ -84,15 +101,19 @@ p {
 .title-section .img {
     flex: 0 0 40%;
     position: relative;
-    width: 80%;
+    width: 90%;
     border-radius: 30px;
     border-right: 3px solid var(--accent-color);
     border-bottom: 3px solid var(--accent-color);
 }
 
-.title-section .row .btn_top .fa {
+.btn_top {
+    display: none;
+}
+
+.title-section .btn_top .fa {
     position: fixed;
-    top: 94%;
+    top: 92.5%;
     right: 0;
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
@@ -102,7 +123,7 @@ p {
     z-index: 101;
 }
 
-.title-section .row .btn_top .fa:hover {
+.title-section .btn_top .fa:hover {
     animation: swing .5s;
     background: var(--text-color);
 }
@@ -111,8 +132,11 @@ p {
 
 @media (max-width:1200px) and (min-width:993px) {
     .title-section {
-        height: 50vh;
         padding: 100px 50px;
+    }
+
+    .title-section .row {
+        height: 550px;
     }
 
     .title-section .row h1 {
@@ -123,8 +147,11 @@ p {
 @media (max-width:992px) and (min-width:767px) {
 
     .title-section {
-        height: 50vh;
         padding: 100px 50px;
+    }
+
+    .title-section .row {
+        height: 550px;
     }
 
     .title-section .row h1 {
@@ -166,12 +193,19 @@ p {
 
 @media (max-width:767px) {
 
-
     .title-section {
         justify-content: center;
         align-items: center;
         text-align: center;
         padding: 10px 30px;
+    }
+
+    .title-section .row {
+        margin-bottom: 50px;
+    }
+
+    .title-section .right_section {
+        justify-content: center;
     }
 
     .title-section .row h3::after {
@@ -187,15 +221,12 @@ p {
 
     .title-section .row h3 {
         margin-left: -95px;
-    }
-
-    .title-section .row {
-        margin-bottom: 50px;
+        padding-bottom: 20px;
     }
 
     .title-section .row img {
         margin-top: 50px;
-        width: 50%;
+        width: 70%;
         margin: 0;
     }
 
@@ -251,9 +282,6 @@ p {
 
 @media (max-width:500px) {
 
-    /* .title-section{
-        height: 70vh;
-    } */
     .title-section .row h3 {
         margin-left: -95px;
     }
