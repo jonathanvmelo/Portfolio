@@ -1,11 +1,11 @@
 .about_section {
     background-color: var(--secunadry-background-color);
-    padding: 250px 0;
+    padding: 200px 0;
 
 }
 
 .about_section .container {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .about_section .about_me_left_section {
