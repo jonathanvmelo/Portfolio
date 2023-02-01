@@ -55,9 +55,14 @@
 
 .portfolio_section .tab-content .card img {
     border: 2px solid var(--text-color);
+    height: 150px;
 }
 
 .portfolio_section .card-body {
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: var(--card-bg-color);
 }
 

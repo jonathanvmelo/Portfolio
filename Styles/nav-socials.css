@@ -4,13 +4,12 @@
 
 .nav_socials {
     margin: 0;
-    padding: 0 15px;
+    padding: 10px 15px 0 15px;
     gap: 50px;
     display: flex;
-    justify-content: space-between;
-   
+    justify-content: space-between; 
     align-items: center;
-    height: 7vh;
+   
 }
 
 .nav_socials .title {

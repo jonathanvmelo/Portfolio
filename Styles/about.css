@@ -72,12 +72,14 @@
     margin-bottom: 25px;
 }
 
-.about_section .about_me_right_section #txt {
+.about_section .about_me_left_section #txt {
     font-size: 15px;
     margin-top: 13px;
     line-height: 25px;
     color: var(--secundary-color);
 }
+
+
 
 .about_section #option {
     font-size: 12px;
@@ -115,7 +117,7 @@
         padding: 150px 50px 150px 50px;
     }
 
-    .about_section .about_me_left_section{
+    .about_section .about_me_left_section {
         padding-right: 50px;
     }
 
@@ -130,7 +132,7 @@
         padding: 150px 50px 150px 50px;
     }
 
-    .about_section .about_me_left_section{
+    .about_section .about_me_left_section {
         padding-right: 50px;
     }
 

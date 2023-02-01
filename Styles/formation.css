@@ -2,13 +2,18 @@
     padding: 200px 0;
 }
 
-.formation_section  .container{
+.formation_section .container {
     padding: 50px 0;
 }
 
 .formation_section .card {
     background: var(--card-bg-color);
     margin: 10px;
+
+}
+
+.card-columns .card {
+    height: 100% !important;
 }
 
 .formation_section .card-header img {
@@ -26,7 +31,7 @@
 
 .formation_section hr {
     border: .5px solid var(--accent-color);
-    max-width:27rem;
+    max-width: 27rem;
     margin: 12px auto;
 }
 
@@ -38,7 +43,7 @@
     color: var(--accent-color);
 }
 
-.formation_section .card-body .txt ul{
+.formation_section .card-body .txt ul {
     font-size: 12px;
     color: var(--secundary-color) !important;
     padding: 0;
@@ -48,16 +53,16 @@
     color: var(--accent-color);
 }
 
-@media (min-width: 767px){
+@media (min-width: 767px) {
     .formation_section {
         padding: 80px 40px;
-      }
+    }
 }
 
 
 @media (max-width: 767px) {
     .formation_section {
-      padding: 80px 55px;
+        padding: 80px 55px;
     }
 
     .formation_section .card-header {
@@ -68,11 +73,11 @@
         width: 18rem;
     }
 
-    .formation_section .card-body #heading{
+    .formation_section .card-body #heading {
         text-align: center;
     }
 
-     .formation_section .row #heading h1 {
+    .formation_section .row #heading h1 {
         padding-left: 0px;
         font-size: 40px;
         font-weight: 500;
@@ -81,23 +86,24 @@
 
 @media (max-width: 500px) {
     .formation_section {
-      padding: 80px 50px;
+        padding: 80px 50px;
     }
 
     .formation_section .card-header {
         display: none;
     }
 
-    .formation_section .card-body #heading{
+    .formation_section .card-body #heading {
         text-align: center;
     }
 
-     .formation_section .row #heading h1 {
+    .formation_section .row #heading h1 {
         padding-left: 0px;
         font-size: 30px;
         font-weight: 500;
     }
+
     .formation_section hr {
-        width: 20rem;
+        width: 13rem;
     }
 }

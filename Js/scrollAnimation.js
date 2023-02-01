@@ -21,7 +21,7 @@ sr.reveal('.row', {
 
 $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    if (scroll <= 140) {
+    if (scroll <= 440) {
         $(".btn_top").fadeOut();
     } else {
         $(".btn_top").fadeIn();
