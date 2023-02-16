@@ -8,12 +8,13 @@
     padding: 50px 35px
 }
 
-.portfolio_section h1{
+.portfolio_section h1 {
     font-size: 50px;
 }
 
 .portfolio_section .under {
     width: 100%;
+    gap: 25px;
 }
 
 .portfolio_section .nav-tabs {
@@ -22,8 +23,16 @@
     text-align: center;
 }
 
+.portfolio_section .tab-content {
+    display: flex;
+    gap: 25px !important;
+}
+
+
 .portfolio_section .card:hover {
-    animation: pulse .5s;
+    scale: 1.05;
+    transition: .5s;
+    cursor: pointer;
 }
 
 .portfolio_section .nav-tabs .nav-link.active {
@@ -59,7 +68,7 @@
 }
 
 .portfolio_section .card-body {
-    height: 230px;
+    height: 265px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
